@@ -25,6 +25,7 @@ inflation_data.csv 파일을 읽습니다.
 
 location | 지역
 price_index | 물가지수
+
 bus | 버스요금
 'taxi' | 택시요금
 'citygas' | 도시가스요금
