@@ -145,7 +145,7 @@ inflation.plot_3d('lodge','haircut','price_index')
 inflation.heatmap(['bus','taxi','citygas','waterworks','garbagebag','washing','lodge','haircut','publicbath','kimchi-jjigae','price_index'])
 ```
 
-<img src="./assets/8.png" alt="8" width="85%"/>
+<img src="./assets/8.png" alt="8" width="90%"/>
 
 
 >heatmap(열지도)으로 각 컬럼별 상관관계를 표현하였습니다.  
