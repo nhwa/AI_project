@@ -46,10 +46,8 @@ class PredictionUtil:
         plt.show()
 
     def heatmap(self, columns):
-        plt.figure(figsize=(13,6))
-        sns.heatmap(self.df[columns].corr(),annot=True)
-        plt.xlabel('x',size=10)
-        plt.ylabel('y',size=10)
+        plt.figure(figsize=(10,6))
+        sns.heatmap(self.df[columns].corr(),annot=True,)
         plt.show()
         #CHECK THE PPT SLIDE
 
@@ -75,7 +73,6 @@ class PredictionUtil:
 
     def run_linear_regress(self, input_cols, target):
         from sklearn import linear_model
-
         a, b = self.split()
 
         gildong = LinearRegression()
@@ -90,7 +87,7 @@ class PredictionUtil:
 
     def run_kneighbor_regress(self, input_cols, target):
         from sklearn.neighbors import KNeighborsRegressor
-        a, b = self.split(self.df)
+        a, b = self.split()
         babo = KNeighborsRegressor(n_neighbors=10)
         babo.fit(a[input_cols], a[target])
         score = babo.score(b[input_cols], b[target])
@@ -99,7 +96,7 @@ class PredictionUtil:
     def run_decision_tree(self, input_cols, target):
         youngja = DecisionTreeRegressor(random_state = 0)
 
-        a, b = self.split(self.df)
+        a, b = self.split()
         youngja.fit(a[input_cols], a[target])
 
         predicted = youngja.predict(b[input_cols])
@@ -111,7 +108,7 @@ class PredictionUtil:
     def run_random_forest(self, input_cols, target):
         cheolsu = RandomForestRegressor(n_estimators=28, random_state=0)
 
-        a, b = self.split(self.df)
+        a, b = self.split()
         cheolsu.fit(a[input_cols], a[target])
         score = cheolsu.score(b[input_cols], b[target])
         print('Random F. - ' + format(score, '.3f'))

@@ -1,4 +1,4 @@
-num,location,price_index,bus,taxi,citygas,waterworks,garbagebag,washing,lodge,haircut,publicbath,Kimchi-jjigae
+num,location,price_index,bus,taxi,citygas,waterworks,garbagebag,washing,lodge,haircut,publicbath,kimchi-jjigae
 1,Seoul,105.24,1200,3800,7918,8280,490,6846,42692,16769,7077,6423
 2,Gwangju,104.65,1250,3300,8167,11600,740,6200,35000,15000,5900,7100
 3,Daegu,105.58,1250,3300,8330,12060,560,7333,43333,20000,5583,6333
