@@ -22,7 +22,7 @@ inflation.read('inflation_data.csv')
 ```
 inflation_data.csv 파일을 읽습니다.
 
-|'location' | 지역
+'location' | 지역
 'price_index' | 물가지수
 'bus' | 버스요금
 'taxi' | 택시요금
@@ -32,5 +32,5 @@ inflation_data.csv 파일을 읽습니다.
 'washing' | 세탁비요금
 'lodge' | 숙박요금
 'haircut' | 미용요금
-'publicbath' | 공중목욕탕요금|
+'publicbath' | 공중목욕탕요금
 
