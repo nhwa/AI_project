@@ -22,7 +22,8 @@ inflation.read('inflation_data.csv')
 ```
 inflation_data.csv 파일을 읽습니다.
 
-| 내용 11 | 내용 12 |
+
+머리1 | 머리2
 
 |location|지역|
 location | 지역
@@ -43,3 +44,4 @@ bus | 버스요금
 | 내용 11 | 내용 12 |
 | 내용 11 | 내용 12 |
 | 내용 11 | 내용 12 |
+
