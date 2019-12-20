@@ -104,12 +104,13 @@ inflation.lmplot('price_index', 'kimchi-jjigae', 'location')
 
 ##### boxplot으로 그려본 상관관계
 ```python
-inflation.lmplot('price_index', 'kimchi-jjigae', 'location')
+inflation.boxplot('taxi','price_index')
 ```
 
-김치찌개에 따른 물가지수
+taxi에 따른 물가지수
 
-![image](https://user-images.githubusercontent.com/44343908/71242976-87271f80-2352-11ea-94ab-265cdba81a2c.png)
+![image](https://user-images.githubusercontent.com/44343908/71244368-affce400-2355-11ea-9eb5-bfa856657995.png)
+
 
 
 
@@ -120,9 +121,10 @@ inflation.heatmap(['bus','taxi','citygas','waterworks','garbagebag','washing','l
 
 ![image](https://user-images.githubusercontent.com/44343908/71243763-5b0c9e00-2354-11ea-8bd5-1543159f2629.png)
 
+
 heatmap(열지도)으로 각 컬럼별 상관관계를 표현하였습니다.
 
-lodge(숙박요금)이 price_index(물가지수)에 가장 많은 영향을 주는 것을 알 수 있습니다.
+lodge(숙박요금)이 price_index(물가지수)에 가장 많은 영향을 주는 것을 알 수 있습니다.  
 *waterworks(상수도 요금)은 price_index(물가지수)에 거의 영향을 끼치지 않습니다.
 
 
