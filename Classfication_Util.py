@@ -1,7 +1,3 @@
-#1) class문 작성
-#2) indentation
-#3) self 파라미터 삽입
-
 import numpy as np # 수학 연산 수행을 위한 모듈
 import pandas as pd # 데이터 처리를 위한 모듈
 import seaborn as sns # 데이터 시각화 모듈

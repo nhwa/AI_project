@@ -1,6 +1,6 @@
 from Prediction_Util import PredictionUtil
-
 inflation = PredictionUtil()
+#모듈을 불러와 객체를 만듭니다.
 
 inflation.read('inflation_data.csv')
 inflation.drop('num')
