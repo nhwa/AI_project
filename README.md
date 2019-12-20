@@ -11,13 +11,19 @@ http://www.price.go.kr/tprice/portal/servicepriceinfo/serviceindustryprice/servi
 
 이 사이트들을 참고하여 도시별 서비스가격과 물가순위를 csv 데이터로 만들었습니다.
 
+
+* * *
+
+
 ```python
 from Prediction_Util import PredictionUtil
 inflation = PredictionUtil()
 ```
 >모듈에 있는 class PredictionUtil을 불러와 객체를 만듭니다.
 
+
 * * *
+
 
 ```python
 inflation.read('inflation_data.csv')
