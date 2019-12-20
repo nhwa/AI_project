@@ -43,7 +43,7 @@ inflation.read('inflation_data.csv')
 
 > inflation_data.csv 파일을 읽습니다.
 
-![image](./assets/1.png){: width="50%"}
+![image](assets/1.png){: width="50%"}
 
 
 
