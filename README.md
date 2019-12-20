@@ -145,7 +145,7 @@ inflation.plot_3d('lodge','haircut','price_index')
 inflation.heatmap(['bus','taxi','citygas','waterworks','garbagebag','washing','lodge','haircut','publicbath','kimchi-jjigae','price_index'])
 ```
 
-<img src="./assets/8.png" alt="8" width="70%"/>
+<img src="./assets/8.png" alt="8" width="100%"/>
 
 
 >heatmap(열지도)으로 각 컬럼별 상관관계를 표현하였습니다.  
@@ -165,7 +165,7 @@ haircut(미용요금)이 price_index(물가지수)에 두번째로 영향을 주
 #### 5. 상관관계를 이용하여 물가지수 예측하기 
 
 ```python
-inflation.run_all(['lodge','haircut'],'price_index')
+inflation.run_all(['lodge'],'price_index')
 ```
 
 > lodge만을 사용하여 인식률을 확인합니다.
