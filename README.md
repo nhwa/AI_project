@@ -145,7 +145,7 @@ inflation.plot_3d('lodge','haircut','price_index')
 inflation.heatmap(['bus','taxi','citygas','waterworks','garbagebag','washing','lodge','haircut','publicbath','kimchi-jjigae','price_index'])
 ```
 
-<img src="./assets/8.png" alt="8" width="70%"/>
+<img src="./assets/8.png" alt="8" width="85%"/>
 
 
 >heatmap(열지도)으로 각 컬럼별 상관관계를 표현하였습니다.  
@@ -170,8 +170,12 @@ inflation.run_all(['lodge','haircut'],'price_index')
 
 > lodge만을 사용하여 인식률을 확인합니다.
 
-<img src="./assets/9.png" alt="9" width="70%"/>
+<img src="./assets/9.png" alt="9" width="50%"/>
 
+선형회귀 알고리즘 : 0%
+K-NN 알고리즘 : 11%
+결정트리 알고리즘 : 0%
+랜덤 포레스트 알고리즘 : 0%
 
 
 * * *
@@ -186,13 +190,10 @@ inflation.run_all(['lodge','haircut'],'price_index')
 
 > 모든 컬럼을 사용하여 인식률을 확인합니다.
 
-<img src="./assets/10.png" alt="10" width="70%"/>
+<img src="./assets/10.png" alt="10" width="50%"/>
 
 
-
-
-
-
-
-
-
+선형회귀 알고리즘 : 0%
+K-NN 알고리즘 : 9%
+결정트리 알고리즘 : 0%
+랜덤 포레스트 알고리즘 : 0%
