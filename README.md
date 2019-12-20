@@ -24,7 +24,7 @@ inflation.read('inflation_data.csv')
 ```
 >inflation_data.csv 파일을 읽습니다.
 
-location | 지역
+-location | 지역
 price_index | 물가지수
 
 bus | 버스요금
