@@ -9,7 +9,7 @@ http://kostat.go.kr/incomeNcpi/cpi/cpi_td/2/4/index.action?bmode=cpidtvalregion&
 한국소비자원참가격 서비스가격정보
 http://www.price.go.kr/tprice/portal/servicepriceinfo/serviceindustryprice/serviceIndustryPriceList.do
 
-이 사이트들을 참고하여 도시별 서비스가격과 물가순위를 csv 데이터로 만들었습니다.
+> 이 사이트들을 참고하여 도시별 서비스가격과 물가순위를 csv 데이터로 만들었습니다.
 
 
 * * *
@@ -21,7 +21,7 @@ http://www.price.go.kr/tprice/portal/servicepriceinfo/serviceindustryprice/servi
 from Prediction_Util import PredictionUtil
 inflation = PredictionUtil()
 ```
-모듈에 있는 class PredictionUtil을 불러와 객체를 만듭니다.
+> 모듈에 있는 class PredictionUtil을 불러와 객체를 만듭니다.
 
 
 * * *
@@ -33,7 +33,7 @@ inflation = PredictionUtil()
 inflation.read('inflation_data.csv')
 ```
 
-inflation_data.csv 파일을 읽습니다.
+> inflation_data.csv 파일을 읽습니다.
 
 ![1](https://user-images.githubusercontent.com/44343908/71241491-17636580-234f-11ea-85e8-dbfce2c21d6a.PNG)
 
@@ -48,7 +48,7 @@ inflation.drop('num')
 inflation.show()
 ```
 
-필요없는 'num' 컬럼을 삭제하고 데이터 유형 및 내용을 확인합니다. 
+> 필요없는 'num' 컬럼을 삭제하고 데이터 유형 및 내용을 확인합니다. 
 
 ![image](https://user-images.githubusercontent.com/44343908/71241765-c3a54c00-234f-11ea-844b-0d111e4a3d07.png)
 
@@ -79,7 +79,7 @@ publicbath | 공중목욕탕요금
 inflation.lmplot('price_index','bus', 'location')
 ```
 
-버스요금에 따른 물가지수
+> 버스요금에 따른 물가지수
 
 ![image](https://user-images.githubusercontent.com/44343908/71242576-99548e00-2351-11ea-83e1-09bf69de5709.png)
 
@@ -88,7 +88,7 @@ inflation.lmplot('price_index','bus', 'location')
 inflation.lmplot('price_index','taxi','location')
 ```
 
-택시요금에 따른 물가지수
+> 택시요금에 따른 물가지수
 
 ![image](https://user-images.githubusercontent.com/44343908/71242787-0a944100-2352-11ea-9e44-8c14a29b2407.png)
 
@@ -96,7 +96,7 @@ inflation.lmplot('price_index','taxi','location')
 inflation.lmplot('price_index', 'kimchi-jjigae', 'location')
 ```
 
-김치찌개에 따른 물가지수
+> 김치찌개에 따른 물가지수
 
 ![image](https://user-images.githubusercontent.com/44343908/71242976-87271f80-2352-11ea-94ab-265cdba81a2c.png)
 
@@ -107,7 +107,7 @@ inflation.lmplot('price_index', 'kimchi-jjigae', 'location')
 inflation.boxplot('taxi','price_index')
 ```
 
-taxi에 따른 물가지수
+> taxi에 따른 물가지수
 
 ![image](https://user-images.githubusercontent.com/44343908/71244368-affce400-2355-11ea-9eb5-bfa856657995.png)
 
@@ -122,11 +122,9 @@ inflation.heatmap(['bus','taxi','citygas','waterworks','garbagebag','washing','l
 ![image](https://user-images.githubusercontent.com/44343908/71244566-2863a500-2356-11ea-9170-c1e1d724c693.png)
 
 
-heatmap(열지도)으로 각 컬럼별 상관관계를 표현하였습니다.
-
+>heatmap(열지도)으로 각 컬럼별 상관관계를 표현하였습니다.
 lodge(숙박요금)이 price_index(물가지수)에 가장 많은 영향을 주는 것을 알 수 있습니다.  
-
-* *waterworks(상수도 요금)은 price_index(물가지수)에 거의 영향을 끼치지 않습니다.*
+*waterworks(상수도 요금)은 price_index(물가지수)에 거의 영향을 끼치지 않습니다.*
 
 
 
