@@ -43,7 +43,7 @@ inflation.read('inflation_data.csv')
 
 > inflation_data.csv 파일을 읽습니다.
 
-![1](https://user-images.githubusercontent.com/44343908/71241491-17636580-234f-11ea-85e8-dbfce2c21d6a.PNG)
+![image](./assets/1.PNG){: width="50%"}
 
 
 
