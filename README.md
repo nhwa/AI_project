@@ -15,17 +15,15 @@ http://www.price.go.kr/tprice/portal/servicepriceinfo/serviceindustryprice/servi
 from Prediction_Util import PredictionUtil
 inflation = PredictionUtil()
 ```
->>모듈에 있는 class PredictionUtil을 불러와 객체를 만듭니다.
+>모듈에 있는 class PredictionUtil을 불러와 객체를 만듭니다.
+
+* * *
 
 ```python
 inflation.read('inflation_data.csv')
 ```
-inflation_data.csv 파일을 읽습니다.
+>inflation_data.csv 파일을 읽습니다.
 
-머리1 | 머리2머리1 | 머리2
-머리1 | 머리2
-
-|location|지역|
 location | 지역
 price_index | 물가지수
 
