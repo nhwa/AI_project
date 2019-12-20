@@ -73,6 +73,7 @@ class PredictionUtil:
 
     def run_linear_regress(self, input_cols, target):
         from sklearn import linear_model
+
         a, b = self.split()
 
         gildong = LinearRegression()

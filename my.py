@@ -23,7 +23,7 @@ inflation.plot_3d('lodge','haircut','price_index')
 inflation.heatmap(['bus','taxi','citygas','waterworks','garbagebag','washing','lodge','haircut','publicbath','kimchi-jjigae','price_index'])
 # heatmap으로 그려본 상관관계
 
-inflation.run_all(['lodge','haircut'],'price_index')
+inflation.run_all(['lodge'],'price_index')
 # lodge만을 사용하여 인식률을 확인합니다.
 
 inflation.run_all(['bus','taxi','citygas','waterworks','garbagebag','washing','lodge','haircut','publicbath','kimchi-jjigae'],'price_index')
