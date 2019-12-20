@@ -8,6 +8,7 @@ http://kostat.go.kr/incomeNcpi/cpi/cpi_td/2/4/index.action?bmode=cpidtvalregion&
 
 한국소비자원참가격 서비스가격정보
 http://www.price.go.kr/tprice/portal/servicepriceinfo/serviceindustryprice/serviceIndustryPriceList.do
+
 이 사이트들을 참고하여 도시별 서비스가격과 물가순위를 csv 데이터로 만들었습니다.
 
 ```python
@@ -20,7 +21,8 @@ inflation = PredictionUtil()
 inflation.read('inflation_data.csv')
 ```
 inflation_data.csv 파일을 읽습니다.
-'location' | 지역
+
+|'location' | 지역
 'price_index' | 물가지수
 'bus' | 버스요금
 'taxi' | 택시요금
@@ -30,5 +32,5 @@ inflation_data.csv 파일을 읽습니다.
 'washing' | 세탁비요금
 'lodge' | 숙박요금
 'haircut' | 미용요금
-'publicbath' | 공중목욕탕요금
+'publicbath' | 공중목욕탕요금|
 
