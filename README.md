@@ -15,6 +15,8 @@ http://www.price.go.kr/tprice/portal/servicepriceinfo/serviceindustryprice/servi
 * * *
 
 
+#### 1. 데이터 불러오기 
+
 ```python
 from Prediction_Util import PredictionUtil
 inflation = PredictionUtil()
@@ -24,6 +26,8 @@ inflation = PredictionUtil()
 
 * * *
 
+
+#### 2. 객체 생성하기 
 
 ```python
 inflation.read('inflation_data.csv')
@@ -38,7 +42,7 @@ inflation_data.csv 파일을 읽습니다.
 * * *
 
 
-
+#### 3. 데이터 정리하기
 ```python
 inflation.drop('num')
 inflation.show()
@@ -60,4 +64,41 @@ garbagebag | 쓰레기봉투요금
 washing | 세탁비요금
 lodge | 숙박요금
 haircut | 미용요금
-publicbath | 공중목욕탕요금 
+publicbath | 공중목욕탕요금
+
+
+
+* * *
+
+
+
+#### 4. 데이터 수치화 - 서비스가격에 따른 물가지수 상관관계 파악 
+```python
+inflation.lmplot('price_index','bus', 'location')
+```
+
+버스요금에 따른 물가지수
+
+![image](https://user-images.githubusercontent.com/44343908/71242576-99548e00-2351-11ea-83e1-09bf69de5709.png)
+
+
+```python
+inflation.lmplot('price_index','taxi','location')
+```
+
+택시요금에 따른 물가지수
+
+![image](https://user-images.githubusercontent.com/44343908/71242787-0a944100-2352-11ea-9e44-8c14a29b2407.png)
+
+```python
+inflation.lmplot('price_index', 'kimchi-jjigae', 'location')
+```
+
+김치찌개에 따른 물가지수
+
+![image](https://user-images.githubusercontent.com/44343908/71242976-87271f80-2352-11ea-94ab-265cdba81a2c.png)
+
+
+
+
+
