@@ -119,13 +119,14 @@ taxi에 따른 물가지수
 inflation.heatmap(['bus','taxi','citygas','waterworks','garbagebag','washing','lodge','haircut','publicbath','kimchi-jjigae','price_index'])
 ```
 
-![image](https://user-images.githubusercontent.com/44343908/71243763-5b0c9e00-2354-11ea-8bd5-1543159f2629.png)
+![image](https://user-images.githubusercontent.com/44343908/71244566-2863a500-2356-11ea-9170-c1e1d724c693.png)
 
 
 heatmap(열지도)으로 각 컬럼별 상관관계를 표현하였습니다.
 
 lodge(숙박요금)이 price_index(물가지수)에 가장 많은 영향을 주는 것을 알 수 있습니다.  
-*waterworks(상수도 요금)은 price_index(물가지수)에 거의 영향을 끼치지 않습니다.
+
+*waterworks(상수도 요금)은 price_index(물가지수)에 거의 영향을 끼치지 않습니다.*
 
 
 
