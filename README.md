@@ -112,6 +112,13 @@ inflation.boxplot('taxi','price_index')
 ![image](https://user-images.githubusercontent.com/44343908/71244368-affce400-2355-11ea-9eb5-bfa856657995.png)
 
 
+##### 3차원으로 그려본 상관관계
+```python
+inflation.plot_3d('lodge','haircut','price_index')
+```
+
+> lodge,haircut에 따른 물가지수
+
 
 
 ##### heatmap으로 그려본 상관관계
@@ -122,9 +129,18 @@ inflation.heatmap(['bus','taxi','citygas','waterworks','garbagebag','washing','l
 ![image](https://user-images.githubusercontent.com/44343908/71244566-2863a500-2356-11ea-9170-c1e1d724c693.png)
 
 
->heatmap(열지도)으로 각 컬럼별 상관관계를 표현하였습니다.
+>heatmap(열지도)으로 각 컬럼별 상관관계를 표현하였습니다.  
 lodge(숙박요금)이 price_index(물가지수)에 가장 많은 영향을 주는 것을 알 수 있습니다.  
+haircut(미용요금)이 price_index(물가지수)에 두번째로 영향을 주는 것을 알 수 있습니다. 
 *waterworks(상수도 요금)은 price_index(물가지수)에 거의 영향을 끼치지 않습니다.*
+
+
+
+* * *
+
+
+
+#### 5. 상관관계를 이용하여 물가지수 예측하기 
 
 
 
