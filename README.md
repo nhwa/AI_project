@@ -19,7 +19,7 @@ http://www.price.go.kr/tprice/portal/servicepriceinfo/serviceindustryprice/servi
 from Prediction_Util import PredictionUtil
 inflation = PredictionUtil()
 ```
->모듈에 있는 class PredictionUtil을 불러와 객체를 만듭니다.
+모듈에 있는 class PredictionUtil을 불러와 객체를 만듭니다.
 
 
 * * *
@@ -29,7 +29,7 @@ inflation = PredictionUtil()
 inflation.read('inflation_data.csv')
 ```
 
->inflation_data.csv 파일을 읽습니다.
+inflation_data.csv 파일을 읽습니다.
 
 ![1](https://user-images.githubusercontent.com/44343908/71241491-17636580-234f-11ea-85e8-dbfce2c21d6a.PNG)
 
@@ -44,7 +44,7 @@ inflation.drop('num')
 inflation.show()
 ```
 
->필요없는 'num' 컬럼을 삭제하고 데이터 유형 및 내용을 확인합니다. 
+필요없는 'num' 컬럼을 삭제하고 데이터 유형 및 내용을 확인합니다. 
 
 ![image](https://user-images.githubusercontent.com/44343908/71241765-c3a54c00-234f-11ea-844b-0d111e4a3d07.png)
 
