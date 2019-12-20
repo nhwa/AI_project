@@ -34,4 +34,5 @@ inflation_data.csv 파일을 읽습니다.
 'haircut' | 미용요금
 'publicbath' | 공중목욕탕요금
 
-location | 지역 
+location | 지역
+---- | ---- 
