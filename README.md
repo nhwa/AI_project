@@ -34,6 +34,11 @@ inflation.read('inflation_data.csv')
 ![1](https://user-images.githubusercontent.com/44343908/71241491-17636580-234f-11ea-85e8-dbfce2c21d6a.PNG)
 
 
+
+* * *
+
+
+
 ```python
 inflation.drop('num')
 inflation.show()
