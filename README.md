@@ -43,7 +43,7 @@ inflation.read('inflation_data.csv')
 
 > inflation_data.csv 파일을 읽습니다.
 
-<img src="./assets/1.png" alt="1" width="50%"/>
+<img src="./assets/1.png" alt="1" width="70%"/>
 
 
 
@@ -61,7 +61,7 @@ inflation.show()
 
 > 필요없는 'num' 컬럼을 삭제하고 데이터 유형 및 내용을 확인합니다. 
 
-![image](https://user-images.githubusercontent.com/44343908/71241765-c3a54c00-234f-11ea-844b-0d111e4a3d07.png)
+<img src="./assets/2.png" alt="2" width="70%"/>
 
 
 location | 지역
@@ -94,7 +94,7 @@ inflation.lmplot('price_index','bus', 'location')
 
 > 버스요금에 따른 물가지수
 
-![image](https://user-images.githubusercontent.com/44343908/71242576-99548e00-2351-11ea-83e1-09bf69de5709.png)
+<img src="./assets/3.png" alt="3" width="70%"/>
 
 
 ```python
@@ -103,7 +103,7 @@ inflation.lmplot('price_index','taxi','location')
 
 > 택시요금에 따른 물가지수
 
-![image](https://user-images.githubusercontent.com/44343908/71242787-0a944100-2352-11ea-9e44-8c14a29b2407.png)
+<img src="./assets/4.png" alt="4" width="70%"/>
 
 ```python
 inflation.lmplot('price_index', 'kimchi-jjigae', 'location')
@@ -111,7 +111,7 @@ inflation.lmplot('price_index', 'kimchi-jjigae', 'location')
 
 > 김치찌개에 따른 물가지수
 
-![image](https://user-images.githubusercontent.com/44343908/71242976-87271f80-2352-11ea-94ab-265cdba81a2c.png)
+<img src="./assets/5.png" alt="5" width="70%"/>
 
 
 
@@ -123,7 +123,7 @@ inflation.boxplot('taxi','price_index')
 
 > taxi에 따른 물가지수
 
-![image](https://user-images.githubusercontent.com/44343908/71244368-affce400-2355-11ea-9eb5-bfa856657995.png)
+<img src="./assets/6.png" alt="6" width="70%"/>
 
 
 
@@ -135,6 +135,8 @@ inflation.plot_3d('lodge','haircut','price_index')
 
 > lodge,haircut에 따른 물가지수
 
+<img src="./assets/7.png" alt="7" width="70%"/>
+
 
 
 
@@ -143,7 +145,7 @@ inflation.plot_3d('lodge','haircut','price_index')
 inflation.heatmap(['bus','taxi','citygas','waterworks','garbagebag','washing','lodge','haircut','publicbath','kimchi-jjigae','price_index'])
 ```
 
-![image](https://user-images.githubusercontent.com/44343908/71244566-2863a500-2356-11ea-9170-c1e1d724c693.png)
+<img src="./assets/8.png" alt="8" width="70%"/>
 
 
 >heatmap(열지도)으로 각 컬럼별 상관관계를 표현하였습니다.  
@@ -168,6 +170,7 @@ inflation.run_all(['lodge','haircut'],'price_index')
 
 > lodge만을 사용하여 인식률을 확인합니다.
 
+<img src="./assets/9.png" alt="9" width="70%"/>
 
 
 
@@ -183,6 +186,7 @@ inflation.run_all(['lodge','haircut'],'price_index')
 
 > 모든 컬럼을 사용하여 인식률을 확인합니다.
 
+<img src="./assets/10.png" alt="10" width="70%"/>
 
 
 
