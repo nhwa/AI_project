@@ -94,7 +94,7 @@ inflation.lmplot('price_index','bus', 'location')
 
 > 버스요금에 따른 물가지수
 
-<img src="./assets/3.png" alt="3" width="70%"/>
+<img src="./assets/3.png" alt="3" width="60%"/>
 
 
 ```python
@@ -103,7 +103,7 @@ inflation.lmplot('price_index','taxi','location')
 
 > 택시요금에 따른 물가지수
 
-<img src="./assets/4.png" alt="4" width="70%"/>
+<img src="./assets/4.png" alt="4" width="60%"/>
 
 ```python
 inflation.lmplot('price_index', 'kimchi-jjigae', 'location')
@@ -111,7 +111,7 @@ inflation.lmplot('price_index', 'kimchi-jjigae', 'location')
 
 > 김치찌개에 따른 물가지수
 
-<img src="./assets/5.png" alt="5" width="70%"/>
+<img src="./assets/5.png" alt="5" width="60%"/>
 
 
 
@@ -197,3 +197,5 @@ inflation.run_all(['lodge','haircut'],'price_index')
 K-NN 알고리즘 : 9%  
 결정트리 알고리즘 : 0%  
 랜덤 포레스트 알고리즘 : 0%  
+
+#### 예측의 결과로 lodge 컬럼만을 사용하여 K-NN 알고리즘을 사용하는 것이 인식률이 높습니다.
