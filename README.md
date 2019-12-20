@@ -185,7 +185,7 @@ K-NN 알고리즘 : 11%
 
 
 ```python
-inflation.run_all(['lodge','haircut'],'price_index')
+inflation.run_all(['bus','taxi','citygas','waterworks','garbagebag','washing','lodge','haircut','publicbath','kimchi-jjigae'],'price_index')
 ```
 
 > 모든 컬럼을 사용하여 인식률을 확인합니다.
