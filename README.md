@@ -1,8 +1,17 @@
-# AI_project
-### "지역별 서비스가격을 통한 물가 예측"
+Prediction Prices AI Project
+============
+### 지역별 서비스가격을 통한 물가 예측 AI Project
+- 도시별 서비스가격과 물가지수를 토대로 데이터처리 라이브러리를 활용하여 물가 예측 프로젝트
 
 #### SKILL
-  `Python - pandas, numpy, matplotlib 패키지` 
+  `Python - pandas, numpy, matplotlib 패키지`
+
+
+<p align="left">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
+</p>
+
+-------------
 
 #### 데이터 출처
 
