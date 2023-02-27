@@ -1,6 +1,9 @@
 # AI_project
 ### "지역별 서비스가격을 통한 물가 예측"
 
+#### SKILL
+  `Python - pandas, numpy, matplotlib 패키지` 
+
 #### 데이터 출처
 
 소비자물가지수동향  
